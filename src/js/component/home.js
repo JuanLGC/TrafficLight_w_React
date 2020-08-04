@@ -9,9 +9,9 @@ export function Home() {
 			<div className="row">
 				<div className="bg-dark lightPost" />
 			</div>
-			<TrafficLight color={"Light redLight"} />
-			<TrafficLight color={"Light yellowLight"} />
-			<TrafficLight color={"Light greenLight"} />
+			<TrafficLight enabled={"Light redLight"} />
+			<TrafficLight enabled={"Light yellowLight"} />
+			<TrafficLight enabled={"Light greenLight"} />
 		</div>
 	);
 }

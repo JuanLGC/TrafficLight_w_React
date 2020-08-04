@@ -10,7 +10,7 @@ export default function TrafficLight(color) {
 	//condicional que hace el cambio del classname usando variable (2) y el estado de variable (1)
 
 	if (light === true) {
-		lightColor = color.color;
+		lightColor = color.enabled;
 	} else {
 		lightColor = "Light";
 	}
